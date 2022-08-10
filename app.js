@@ -1,3 +1,4 @@
+// Boburshoh Khusanov
 const title = document.querySelector('#title'),
     author = document.querySelector('#author',),
     year = document.querySelector('#year'),
