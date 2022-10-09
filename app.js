@@ -21,11 +21,11 @@ btn.addEventListener('click',(event) =>{
         newRow.appendChild(newTitle);
 
         const newAuter = document.createElement('th')
-        newAuter.innerHTML = title.value
+        newAuter.innerHTML = auther.value
         newRow.appendChild(newAuter);
 
         const newYear = document.createElement('th')
-        newYear.innerHTML = title.value
+        newYear.innerHTML = year.value
         newRow.appendChild(newYear);
 
         bookList.appendChild(newRow)
